@@ -1,3 +1,4 @@
+const fsExtra = require('fs-extra');
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
@@ -129,7 +130,7 @@ const addIntern = () => {
 
 // Function to generate the HTML
 const generateHTML = () => {
-  fs.ensureDirSync(OUTPUT_DIR);
+    fsExtra.ensureDirSync(OUTPUT_DIR);
   fs.writeFileSync(outputPath, render(teamMembers));
 };
 
