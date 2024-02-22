@@ -1,14 +1,22 @@
-# Module 12 Object-Oriented Programming: Team Profile Generator
+# Object-Oriented Programming: Team Profile Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT) [![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/)
+[![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 
-## Your Task
+## 📖 Description
 
-Your task is to take the given starter code and convert it into a working Node.js command-line application. This application will take in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. You have been provided with tests, so make sure every part of your code passes each provided test.
+As a manager, a user wants to generate a webpage that displays my team's basic info so that a user has quick access to their emails and GitHub profiles. A working Node.js command-line application will take in information about employees on a software engineering team, and then generate an HTML webpage that displays summaries for each person. Every part of your code passes each provided test.
 
-## User Story
+## 🚩 Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Screen Recording](#screen-recording)
+- [Questions](#questions)
 
-As a manager a user want to generate a webpage that displays my team's basic info so that a user have quick access to their emails and GitHub profiles.
+## Features 
 
-## Instructions
 
 * Create a command-line application that accepts accepts user input using the provided starter code.   
   * Create classes for each team member provided and export them. The tests for these classes (in the `_tests_` directory) must ALL pass.     
@@ -59,84 +67,34 @@ As a manager a user want to generate a webpage that displays my team's basic inf
   * Create an HTML file using the HTML returned from the `render` function. 
     * Write it to a file named `team.html` in the `output` folder. 
     * You can use the provided variable `outputPath` to target this location.
+   
+    ## Installation
+````
+npm install --save inquirer@^8.0.0
 
----
+npm i jest
+````
 
-## Mock-Up
-
-The following image shows a mock-up of the generated HTML’s appearance and functionality:
-
-![HTML webpage titled “My Team” features five boxes listing employee names, titles, and other key info.](./Assets/14-object-oriented-programming-challenge-demo.png)
-
-The styling in the image is just an example, so feel free to add your own.
-
----
-
-## Getting Started
-
-This Challenge will combine many of the skills we've covered so far. In addition to the User Story and Acceptance Criteria, we’ve provided some guidelines to help get started.
-
-Your application should use [Jest](https://www.npmjs.com/package/jest) for running the unit tests and [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. The application will be invoked by using the following command:
-
-```bash
+## Usage
+The application will be invoked by using the following command:
+````
 node index.js
-```
+````
 
----
+## License
+This project is licensed under the [MIT License](LICENSE).
 
-## Hints
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or create a pull request.
 
-* You will want to make your methods as pure as possible. This means try to make your methods simple so that they are easier to test.
+## Screen Recording
 
-* The different employee types should all inherit some methods and properties from a base class of `Employee`.
- 
-* Be sure to test out each class and verify it generates an object with the correct structure and methods. This structure will be crucial in order for the provided `render` function to work!
-  
-* You may need to check if the `output` folder exists and create it if it does not.
+Link to the [Walkthrough Video]()
 
----
+![Home Page]()
 
-## Grading Requirements
+## Questions
+Follow me on GitHub at https://github.com/Astranag/
 
-This Challenge is graded based on the following criteria: 
+Feel free to reach out to me for any inquiries at [stivinmavelil@gmail.com](mailto:stivinmavelil@gmail.com).
 
-### Deliverables: 25%
-
-* A sample HTML file generated using the application must be submitted.
-
-* Your GitHub repository containing your application code.
-
-### Technical Acceptance Criteria: 50%
-
-* Satisfies all of the preceding acceptance criteria plus the following:
-
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
-
-	* All tests pass using the [Jest package](https://www.npmjs.com/package/jest).
-
-  * The application must have `Employee`, `Manager`, `Engineer`, and `Intern` classes.
-
-### Repository Quality: 25%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains a high-quality readme with description.
-
----
-
-## Review
-
-You are required to submit the following for review:
-
-* A sample HTML file generated using your application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
