@@ -4,7 +4,7 @@
 
 ## 📖 Description
 
-As a manager, a user wants to generate a webpage that displays my team's basic info so that a user has quick access to their emails and GitHub profiles. A working Node.js command-line application will take in information about employees on a software engineering team, and then generate an HTML webpage that displays summaries for each person. Every part of your code passes each provided test.
+As a manager, I want to create a webpage that displays my team's essential information, such as their email addresses and GitHub profiles, so that I can access it quickly. To achieve this, I need a functional Node.js command-line application that can gather necessary details about my software engineering team members. The application should pass all the provided tests without any errors and generate an HTML webpage that showcases a summary for each person on the team.
 
 ## 🚩 Table of Contents
 - [Features](#features)
@@ -42,7 +42,7 @@ As a manager, a user wants to generate a webpage that displays my team's basic i
       * `getRole()`&mdash;overridden to return `'Intern'`
     * Finally, although it’s not a requirement, consider adding validation to ensure that user input is in the proper format.   
   * Write code in `index.js` that uses inquirer to gather information about the development team members and creates objects for each team member using the correct classes as blueprints.
-    * When a user starts the application then they are prompted to enter the **team manager**’s:
+    * When a user starts the application then they are prompted to enter the **team manager**:
       * Name
       * Employee ID
       * Email address
