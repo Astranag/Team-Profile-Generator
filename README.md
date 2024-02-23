@@ -89,9 +89,12 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## Screen Recording
 
-Link to the [Walkthrough Video]()
+Link to the [Walkthrough Video](https://drive.google.com/file/d/1kzPsWbbMtEcVY72Je0hguRFH96QSWTFg/view)
 
-![Home Page]()
+[Visit the generated Team Profile here](starter/output/team.html)
+
+
+![Demo](assets/14-object-oriented-programming-challenge-demo.png)
 
 ## Questions
 Follow me on GitHub at https://github.com/Astranag/
